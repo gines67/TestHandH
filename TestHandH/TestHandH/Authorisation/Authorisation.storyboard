@@ -40,13 +40,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVP-OS-TTS">
-                                <rect key="frame" x="13" y="225" width="349" height="281"/>
+                                <rect key="frame" x="13" y="243" width="349" height="245"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Sxr-gN-NrC">
-                                        <rect key="frame" x="0.0" y="0.0" width="349" height="134"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="349" height="114"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-KJ-TWa">
-                                                <rect key="frame" x="0.0" y="0.0" width="349" height="61"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-KJ-TWa">
+                                                <rect key="frame" x="0.0" y="0.0" width="349" height="51"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Почта" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJd-jB-zKZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="349" height="17"/>
@@ -58,7 +58,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oq4-fE-icE" customClass="UnderLineTextField" customModule="TestHandH" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="17" width="349" height="44"/>
+                                                        <rect key="frame" x="0.0" y="7" width="349" height="44"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="pZF-mt-GUf"/>
                                                         </constraints>
@@ -71,8 +71,8 @@
                                                     </textField>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="afR-vq-PtJ">
-                                                <rect key="frame" x="0.0" y="73" width="349" height="61"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="afR-vq-PtJ">
+                                                <rect key="frame" x="0.0" y="63" width="349" height="51"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eJ-1H-g7k">
                                                         <rect key="frame" x="0.0" y="0.0" width="349" height="17"/>
@@ -84,7 +84,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ORQ-dH-sRo" customClass="WithButtonTextField" customModule="TestHandH" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="17" width="349" height="44"/>
+                                                        <rect key="frame" x="0.0" y="7" width="349" height="44"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="FRr-E3-7N4"/>
                                                         </constraints>
@@ -100,12 +100,12 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6j8-T1-Pev">
-                                        <rect key="frame" x="67" y="233" width="214" height="28"/>
+                                        <rect key="frame" x="67" y="213" width="214" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="У мня еще нет аккаунта. Создать."/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcQ-1o-sG9" customClass="OrangeRoundedButton" customModule="TestHandH" customModuleProvider="target">
-                                        <rect key="frame" x="101" y="168" width="147" height="44"/>
+                                        <rect key="frame" x="101" y="148" width="147" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="147" id="f5w-2d-abA"/>
                                             <constraint firstAttribute="height" constant="44" id="ww5-rP-84w"/>
@@ -121,7 +121,7 @@
                                     <constraint firstItem="Sxr-gN-NrC" firstAttribute="centerX" secondItem="eVP-OS-TTS" secondAttribute="centerX" id="B2I-lp-vJw"/>
                                     <constraint firstItem="Sxr-gN-NrC" firstAttribute="top" secondItem="eVP-OS-TTS" secondAttribute="top" id="NDA-iX-CKT"/>
                                     <constraint firstAttribute="trailing" secondItem="Sxr-gN-NrC" secondAttribute="trailing" id="Xlf-0n-KZw"/>
-                                    <constraint firstAttribute="height" constant="281" id="YEf-OU-uPj"/>
+                                    <constraint firstAttribute="height" constant="245" id="YEf-OU-uPj"/>
                                     <constraint firstItem="6j8-T1-Pev" firstAttribute="centerX" secondItem="eVP-OS-TTS" secondAttribute="centerX" id="fCr-Fw-ecC"/>
                                     <constraint firstItem="Sxr-gN-NrC" firstAttribute="leading" secondItem="eVP-OS-TTS" secondAttribute="leading" id="ogY-P0-5W5"/>
                                 </constraints>
@@ -136,7 +136,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="F3W-Fa-ryx"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Авторизация" largeTitleDisplayMode="always" id="ahP-nV-7Uv"/>
+                    <navigationItem key="navigationItem" title="Авторизация" id="ahP-nV-7Uv">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Jo2-iX-dy2"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6aK-D2-FMV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

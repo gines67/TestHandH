@@ -12,7 +12,7 @@ class AutorisationView: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideKeyboardWhenTappedAround()
+        hideKeyboardWhenTappedAround()
         subscribeToKeyboardNotification()
     }
     

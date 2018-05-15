@@ -54,7 +54,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6Dk-T5-rKw"/>
+                    <navigationItem key="navigationItem" id="6Dk-T5-rKw">
+                        <barButtonItem key="backBarButtonItem" title=" " id="jsG-jg-Xs4"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
