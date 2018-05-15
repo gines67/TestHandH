@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4FCFF66D67881B16FCD100C1 /* Pods_TestHandH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DCC5FA09B5DAE05CFE6C9 /* Pods_TestHandH.framework */; };
+		E2437F7A20AAC9CE0095105C /* OrangeRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F7920AAC9CE0095105C /* OrangeRoundedButton.swift */; };
+		E2437F7D20AAD7340095105C /* Authorisation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2437F7C20AAD7340095105C /* Authorisation.storyboard */; };
+		E2437F7F20AAD7710095105C /* AuthorisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F7E20AAD7710095105C /* AuthorisationView.swift */; };
+		E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8020AAED220095105C /* UnderLineTextField.swift */; };
+		E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8220AAF62A0095105C /* WithButtonTextField.swift */; };
+		E2437F8720AB00CC0095105C /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8620AB00CC0095105C /* constants.swift */; };
 		E2CF484F20AAC1E6004931B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */; };
 		E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF485020AAC1E6004931B7 /* ViewController.swift */; };
 		E2CF485420AAC1E6004931B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF485220AAC1E6004931B7 /* Main.storyboard */; };
@@ -30,6 +36,12 @@
 		320DCC5FA09B5DAE05CFE6C9 /* Pods_TestHandH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHandH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D50693BE7A39313260485C /* Pods-TestHandH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHandH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHandH/Pods-TestHandH.debug.xcconfig"; sourceTree = "<group>"; };
 		C6DD8ED7492D52D166C54984 /* Pods-TestHandH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHandH.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHandH/Pods-TestHandH.release.xcconfig"; sourceTree = "<group>"; };
+		E2437F7920AAC9CE0095105C /* OrangeRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeRoundedButton.swift; sourceTree = "<group>"; };
+		E2437F7C20AAD7340095105C /* Authorisation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorisation.storyboard; sourceTree = "<group>"; };
+		E2437F7E20AAD7710095105C /* AuthorisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationView.swift; sourceTree = "<group>"; };
+		E2437F8020AAED220095105C /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
+		E2437F8220AAF62A0095105C /* WithButtonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithButtonTextField.swift; sourceTree = "<group>"; };
+		E2437F8620AB00CC0095105C /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		E2CF484B20AAC1E6004931B7 /* TestHandH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHandH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2CF485020AAC1E6004931B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +81,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E2437F7B20AAD7180095105C /* Authorisation */ = {
+			isa = PBXGroup;
+			children = (
+				E2437F7C20AAD7340095105C /* Authorisation.storyboard */,
+				E2437F7E20AAD7710095105C /* AuthorisationView.swift */,
+			);
+			path = Authorisation;
+			sourceTree = "<group>";
+		};
+		E2437F8420AB00860095105C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E2437F7920AAC9CE0095105C /* OrangeRoundedButton.swift */,
+				E2437F8020AAED220095105C /* UnderLineTextField.swift */,
+				E2437F8220AAF62A0095105C /* WithButtonTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E2437F8520AB00B20095105C /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				E2437F8620AB00CC0095105C /* constants.swift */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
 		E2CF484220AAC1E6004931B7 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +131,9 @@
 		E2CF484D20AAC1E6004931B7 /* TestHandH */ = {
 			isa = PBXGroup;
 			children = (
+				E2437F8520AB00B20095105C /* SupportingFile */,
+				E2437F8420AB00860095105C /* CustomView */,
+				E2437F7B20AAD7180095105C /* Authorisation */,
 				E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */,
 				E2CF485020AAC1E6004931B7 /* ViewController.swift */,
 				E2CF485220AAC1E6004931B7 /* Main.storyboard */,
@@ -203,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2437F7D20AAD7340095105C /* Authorisation.storyboard in Resources */,
 				E2CF485920AAC1E7004931B7 /* LaunchScreen.storyboard in Resources */,
 				E2CF485620AAC1E7004931B7 /* Assets.xcassets in Resources */,
 				E2CF485420AAC1E6004931B7 /* Main.storyboard in Resources */,
@@ -267,6 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */,
+				E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */,
+				E2437F7A20AAC9CE0095105C /* OrangeRoundedButton.swift in Sources */,
+				E2437F8720AB00CC0095105C /* constants.swift in Sources */,
+				E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */,
+				E2437F7F20AAD7710095105C /* AuthorisationView.swift in Sources */,
 				E2CF484F20AAC1E6004931B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,16 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func TapToAuth(_ sender: Any) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Authorisation", bundle: nil)
+        
+        let authView = storyBoard.instantiateViewController(withIdentifier: "AuthSB") as! AutorisationView
+        self.navigationController?.pushViewController(authView, animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TestHandH
+//@testable import TestHandH
 
 class TestHandHTests: XCTestCase {
     
