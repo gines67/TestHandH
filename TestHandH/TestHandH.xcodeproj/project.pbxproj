@@ -19,7 +19,20 @@
 		E2CF485420AAC1E6004931B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF485220AAC1E6004931B7 /* Main.storyboard */; };
 		E2CF485620AAC1E7004931B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CF485520AAC1E7004931B7 /* Assets.xcassets */; };
 		E2CF485920AAC1E7004931B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF485720AAC1E7004931B7 /* LaunchScreen.storyboard */; };
-		E2CF486420AAC1E7004931B7 /* TestHandHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF486320AAC1E7004931B7 /* TestHandHTests.swift */; };
+		E2CF486420AAC1E7004931B7 /* UppercaseValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF486320AAC1E7004931B7 /* UppercaseValidatorTests.swift */; };
+		E2E22CF820AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22CF720AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift */; };
+		E2E22CFB20AC12D500BAE5B3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22CFA20AC12D500BAE5B3 /* Validator.swift */; };
+		E2E22CFD20AC152300BAE5B3 /* UppercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22CFC20AC152300BAE5B3 /* UppercaseValidator.swift */; };
+		E2E22D0120AC183B00BAE5B3 /* LowercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0020AC183B00BAE5B3 /* LowercaseValidator.swift */; };
+		E2E22D0320AC192700BAE5B3 /* NumberValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0220AC192700BAE5B3 /* NumberValidatorTests.swift */; };
+		E2E22D0520AC19C200BAE5B3 /* LowercaseValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0420AC19C200BAE5B3 /* LowercaseValidatorTests.swift */; };
+		E2E22D0720AC1A1D00BAE5B3 /* NumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0620AC1A1D00BAE5B3 /* NumberValidator.swift */; };
+		E2E22D0920AC1B1500BAE5B3 /* LengthStringValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0820AC1B1500BAE5B3 /* LengthStringValidatorTests.swift */; };
+		E2E22D0B20AC1BB000BAE5B3 /* LengthStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0A20AC1BB000BAE5B3 /* LengthStringValidator.swift */; };
+		E2E22D0D20AC1C4E00BAE5B3 /* EmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0C20AC1C4E00BAE5B3 /* EmailValidatorTests.swift */; };
+		E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */; };
+		E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */; };
+		E2E22D1320AC29EA00BAE5B3 /* CompositValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +63,21 @@
 		E2CF485820AAC1E7004931B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2CF485A20AAC1E7004931B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2CF485F20AAC1E7004931B7 /* TestHandHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHandHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2CF486320AAC1E7004931B7 /* TestHandHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHandHTests.swift; sourceTree = "<group>"; };
+		E2CF486320AAC1E7004931B7 /* UppercaseValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppercaseValidatorTests.swift; sourceTree = "<group>"; };
 		E2CF486520AAC1E7004931B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E22CF720AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboardByTap.swift"; sourceTree = "<group>"; };
+		E2E22CFA20AC12D500BAE5B3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		E2E22CFC20AC152300BAE5B3 /* UppercaseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppercaseValidator.swift; sourceTree = "<group>"; };
+		E2E22D0020AC183B00BAE5B3 /* LowercaseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowercaseValidator.swift; sourceTree = "<group>"; };
+		E2E22D0220AC192700BAE5B3 /* NumberValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberValidatorTests.swift; sourceTree = "<group>"; };
+		E2E22D0420AC19C200BAE5B3 /* LowercaseValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowercaseValidatorTests.swift; sourceTree = "<group>"; };
+		E2E22D0620AC1A1D00BAE5B3 /* NumberValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberValidator.swift; sourceTree = "<group>"; };
+		E2E22D0820AC1B1500BAE5B3 /* LengthStringValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthStringValidatorTests.swift; sourceTree = "<group>"; };
+		E2E22D0A20AC1BB000BAE5B3 /* LengthStringValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthStringValidator.swift; sourceTree = "<group>"; };
+		E2E22D0C20AC1C4E00BAE5B3 /* EmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorTests.swift; sourceTree = "<group>"; };
+		E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidator.swift; sourceTree = "<group>"; };
+		E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				E2437F8620AB00CC0095105C /* constants.swift */,
+				E2E22CF720AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -131,6 +158,7 @@
 		E2CF484D20AAC1E6004931B7 /* TestHandH */ = {
 			isa = PBXGroup;
 			children = (
+				E2E22CF920AC12B500BAE5B3 /* Validators */,
 				E2437F8520AB00B20095105C /* SupportingFile */,
 				E2437F8420AB00860095105C /* CustomView */,
 				E2437F7B20AAD7180095105C /* Authorisation */,
@@ -147,10 +175,29 @@
 		E2CF486220AAC1E7004931B7 /* TestHandHTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2CF486320AAC1E7004931B7 /* TestHandHTests.swift */,
+				E2CF486320AAC1E7004931B7 /* UppercaseValidatorTests.swift */,
+				E2E22D0420AC19C200BAE5B3 /* LowercaseValidatorTests.swift */,
+				E2E22D0220AC192700BAE5B3 /* NumberValidatorTests.swift */,
+				E2E22D0820AC1B1500BAE5B3 /* LengthStringValidatorTests.swift */,
+				E2E22D0C20AC1C4E00BAE5B3 /* EmailValidatorTests.swift */,
+				E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */,
 				E2CF486520AAC1E7004931B7 /* Info.plist */,
 			);
 			path = TestHandHTests;
+			sourceTree = "<group>";
+		};
+		E2E22CF920AC12B500BAE5B3 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				E2E22CFA20AC12D500BAE5B3 /* Validator.swift */,
+				E2E22CFC20AC152300BAE5B3 /* UppercaseValidator.swift */,
+				E2E22D0020AC183B00BAE5B3 /* LowercaseValidator.swift */,
+				E2E22D0620AC1A1D00BAE5B3 /* NumberValidator.swift */,
+				E2E22D0A20AC1BB000BAE5B3 /* LengthStringValidator.swift */,
+				E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */,
+				E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */,
+			);
+			path = Validators;
 			sourceTree = "<group>";
 		};
 		EAC40F75B1B49D481BE8E0E0 /* Pods */ = {
@@ -310,12 +357,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */,
+				E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */,
+				E2E22CFB20AC12D500BAE5B3 /* Validator.swift in Sources */,
 				E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */,
+				E2E22D0720AC1A1D00BAE5B3 /* NumberValidator.swift in Sources */,
 				E2437F7A20AAC9CE0095105C /* OrangeRoundedButton.swift in Sources */,
 				E2437F8720AB00CC0095105C /* constants.swift in Sources */,
+				E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */,
 				E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */,
+				E2E22D0B20AC1BB000BAE5B3 /* LengthStringValidator.swift in Sources */,
 				E2437F7F20AAD7710095105C /* AuthorisationView.swift in Sources */,
+				E2E22D0120AC183B00BAE5B3 /* LowercaseValidator.swift in Sources */,
+				E2E22CF820AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift in Sources */,
 				E2CF484F20AAC1E6004931B7 /* AppDelegate.swift in Sources */,
+				E2E22CFD20AC152300BAE5B3 /* UppercaseValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CF486420AAC1E7004931B7 /* TestHandHTests.swift in Sources */,
+				E2E22D0D20AC1C4E00BAE5B3 /* EmailValidatorTests.swift in Sources */,
+				E2E22D0320AC192700BAE5B3 /* NumberValidatorTests.swift in Sources */,
+				E2E22D0520AC19C200BAE5B3 /* LowercaseValidatorTests.swift in Sources */,
+				E2E22D0920AC1B1500BAE5B3 /* LengthStringValidatorTests.swift in Sources */,
+				E2E22D1320AC29EA00BAE5B3 /* CompositValidatorTests.swift in Sources */,
+				E2CF486420AAC1E7004931B7 /* UppercaseValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,7 @@ class AutorisationView: UIViewController, UITextFieldDelegate {
         removeSubscribeToKeyboardNotification()
     }
     
+    //MARK:- work with keyboard notification
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false
@@ -45,16 +46,4 @@ class AutorisationView: UIViewController, UITextFieldDelegate {
         self.view.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: UIScreen.main.bounds.height)
     }
 
-}
-
-extension UIViewController {
-    func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
-        tap.cancelsTouchesInView = false
-        view.addGestureRecognizer(tap)
-    }
-    
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
-    }
 }
