@@ -1,5 +1,5 @@
 //
-//  Water.swift
+//  Weather.swift
 //  TestHandH
 //
 //  Created by Сергей Герасимов on 18.05.2018.

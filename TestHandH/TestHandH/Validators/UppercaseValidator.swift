@@ -9,9 +9,9 @@
 import UIKit
 
 class UppercaseValidator: Validator {
+    
     func isValid(validationString: String) -> Bool {
         let regExptest = NSPredicate(format: "SELF MATCHES %@", ".*[A-ZА-Я]+.*")
         return regExptest.evaluate(with: validationString)
     }
-
 }

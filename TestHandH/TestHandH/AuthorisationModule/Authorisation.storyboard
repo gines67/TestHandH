@@ -90,7 +90,7 @@
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES" textContentType="email"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                         <connections>
                                                             <outlet property="delegate" destination="CVc-ZE-hH0" id="f9m-VM-fWh"/>
                                                         </connections>
