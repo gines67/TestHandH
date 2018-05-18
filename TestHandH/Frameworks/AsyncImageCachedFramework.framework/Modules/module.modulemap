@@ -1,0 +1,11 @@
+framework module AsyncImageCachedFramework {
+  umbrella header "AsyncImageCachedFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AsyncImageCachedFramework.Swift {
+    header "AsyncImageCachedFramework-Swift.h"
+    requires objc
+}

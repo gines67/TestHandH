@@ -1,0 +1,6 @@
+framework module Pods_TestHandH {
+  umbrella header "Pods-TestHandH-umbrella.h"
+
+  export *
+  module * { export * }
+}

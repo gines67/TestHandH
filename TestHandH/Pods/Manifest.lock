@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.7.2)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - Swinject (2.4.0)
+  - SwinjectStoryboard (1.2.1):
+    - Swinject (~> 2.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - RxCocoa
+    - RxSwift
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  Swinject: a1364b0f66c2736bb03c1c7cab54809e16df25da
+  SwinjectStoryboard: de60d1d30fbf442fe90fc5c31d9fff89cf3ef64f
+
+PODFILE CHECKSUM: 08975750f7101dcc38916c6441123e2af1429e3d
+
+COCOAPODS: 1.5.2
