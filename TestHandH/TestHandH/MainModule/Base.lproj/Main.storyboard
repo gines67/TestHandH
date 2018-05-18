@@ -43,7 +43,7 @@
                                 </constraints>
                                 <state key="normal" title="Авторизация"/>
                                 <connections>
-                                    <segue destination="iNo-BX-0bd" kind="show" id="TLR-EM-UBh"/>
+                                    <action selector="GoToAuthorisation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcQ-pl-pRQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,16 +61,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="54" y="-743"/>
-        </scene>
-        <!--AuthSB-->
-        <scene sceneID="zn5-5a-zmz">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Authorisation" referencedIdentifier="AuthSB" id="iNo-BX-0bd" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="bl9-27-gqY"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Rj-0y-TLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="650" y="-744"/>
         </scene>
     </scenes>
 </document>

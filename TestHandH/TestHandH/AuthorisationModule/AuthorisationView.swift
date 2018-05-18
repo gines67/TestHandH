@@ -18,7 +18,7 @@ class AutorisationView: UIViewController {
     
     //MARK:- Variables
     var disposeBag = DisposeBag()
-    var viewModel: AuthorisationViewModelProtocol! = AuthorisationViewModel(withEmailValidator: EmailValidator(), passwordValidator: CompositValidator(withValidators: [UppercaseValidator(), LowercaseValidator(), NumberValidator(), LengthStringValidator()]))
+    var viewModel: AuthorisationViewModelProtocol!
     
     
     override func viewDidLoad() {

@@ -10,13 +10,17 @@ import Foundation
 
 class AuthorisationViewModel: AuthorisationViewModelProtocol {
 
+    //MARK:- private variables
     private var emailValidator: Validator
     private var passwordValidator: Validator
     
+    //MARK:- inits
     init(withEmailValidator emailValidator: Validator, passwordValidator: Validator) {
         self.emailValidator = emailValidator
         self.passwordValidator = passwordValidator
     }
+    
+    //MARK:- AuthorisationViewModelProtocol
     func emailIsValid(_ email: String) -> Bool {
         return emailValidator.isValid(validationString: email)
     }
