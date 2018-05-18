@@ -11,7 +11,7 @@ import UIKit
 class EmailValidator: Validator {
     
     func isValid(validationString: String) -> Bool {
-        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,20}"
         let regExptest = NSPredicate(format: "SELF MATCHES %@", emailRegEx)
         return regExptest.evaluate(with: validationString)
     }

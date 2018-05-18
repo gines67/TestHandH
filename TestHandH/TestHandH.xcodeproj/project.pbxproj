@@ -14,6 +14,8 @@
 		E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8020AAED220095105C /* UnderLineTextField.swift */; };
 		E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8220AAF62A0095105C /* WithButtonTextField.swift */; };
 		E2437F8720AB00CC0095105C /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2437F8620AB00CC0095105C /* constants.swift */; };
+		E2B818F120AEB9B500973D5F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B818EF20AEB9B400973D5F /* Weather.swift */; };
+		E2B818F220AEB9B500973D5F /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B818F020AEB9B500973D5F /* WeatherService.swift */; };
 		E2CF484F20AAC1E6004931B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */; };
 		E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF485020AAC1E6004931B7 /* ViewController.swift */; };
 		E2CF485420AAC1E6004931B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF485220AAC1E6004931B7 /* Main.storyboard */; };
@@ -33,6 +35,11 @@
 		E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */; };
 		E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */; };
 		E2E22D1320AC29EA00BAE5B3 /* CompositValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */; };
+		E2EFF63D20AEE291008CFB42 /* AlertViewController+setImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */; };
+		E2EFF64A20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */; };
+		E2EFF64B20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2EFF64E20AEF000008CFB42 /* AuthorisationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */; };
+		E2EFF65020AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E2EFF64C20AEEAB9008CFB42 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2EFF64B20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		320DCC5FA09B5DAE05CFE6C9 /* Pods_TestHandH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHandH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D50693BE7A39313260485C /* Pods-TestHandH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHandH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHandH/Pods-TestHandH.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +76,8 @@
 		E2437F8020AAED220095105C /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
 		E2437F8220AAF62A0095105C /* WithButtonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithButtonTextField.swift; sourceTree = "<group>"; };
 		E2437F8620AB00CC0095105C /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		E2B818EF20AEB9B400973D5F /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E2B818F020AEB9B500973D5F /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		E2CF484B20AAC1E6004931B7 /* TestHandH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHandH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2CF485020AAC1E6004931B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +101,10 @@
 		E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidator.swift; sourceTree = "<group>"; };
 		E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidatorTests.swift; sourceTree = "<group>"; };
+		E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertViewController+setImage.swift"; sourceTree = "<group>"; };
+		E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncImageCachedFramework.framework; path = Frameworks/AsyncImageCachedFramework.framework; sourceTree = "<group>"; };
+		E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationViewModel.swift; sourceTree = "<group>"; };
+		E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationViewModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EFF64A20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Frameworks */,
 				4FCFF66D67881B16FCD100C1 /* Pods_TestHandH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,18 +130,21 @@
 		84A5844C526825A286879253 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */,
 				320DCC5FA09B5DAE05CFE6C9 /* Pods_TestHandH.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2437F7B20AAD7180095105C /* Authorisation */ = {
+		E2437F7B20AAD7180095105C /* AuthorisationModule */ = {
 			isa = PBXGroup;
 			children = (
 				E2437F7C20AAD7340095105C /* Authorisation.storyboard */,
 				E2437F7E20AAD7710095105C /* AuthorisationView.swift */,
+				E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */,
+				E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */,
 			);
-			path = Authorisation;
+			path = AuthorisationModule;
 			sourceTree = "<group>";
 		};
 		E2437F8420AB00860095105C /* CustomView */ = {
@@ -131,8 +162,31 @@
 			children = (
 				E2437F8620AB00CC0095105C /* constants.swift */,
 				E2E22CF720AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift */,
+				E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */,
 			);
 			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		E2B818E920AEA80300973D5F /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF486320AAC1E7004931B7 /* UppercaseValidatorTests.swift */,
+				E2E22D0420AC19C200BAE5B3 /* LowercaseValidatorTests.swift */,
+				E2E22D0220AC192700BAE5B3 /* NumberValidatorTests.swift */,
+				E2E22D0820AC1B1500BAE5B3 /* LengthStringValidatorTests.swift */,
+				E2E22D0C20AC1C4E00BAE5B3 /* EmailValidatorTests.swift */,
+				E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		E2B818EA20AEA86400973D5F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2B818EF20AEB9B400973D5F /* Weather.swift */,
+				E2B818F020AEB9B500973D5F /* WeatherService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		E2CF484220AAC1E6004931B7 = {
@@ -159,12 +213,12 @@
 			isa = PBXGroup;
 			children = (
 				E2E22CF920AC12B500BAE5B3 /* Validators */,
+				E2B818EA20AEA86400973D5F /* Services */,
+				E2437F7B20AAD7180095105C /* AuthorisationModule */,
+				E2E22D1420AC6ED200BAE5B3 /* MainModule */,
 				E2437F8520AB00B20095105C /* SupportingFile */,
 				E2437F8420AB00860095105C /* CustomView */,
-				E2437F7B20AAD7180095105C /* Authorisation */,
 				E2CF484E20AAC1E6004931B7 /* AppDelegate.swift */,
-				E2CF485020AAC1E6004931B7 /* ViewController.swift */,
-				E2CF485220AAC1E6004931B7 /* Main.storyboard */,
 				E2CF485520AAC1E7004931B7 /* Assets.xcassets */,
 				E2CF485720AAC1E7004931B7 /* LaunchScreen.storyboard */,
 				E2CF485A20AAC1E7004931B7 /* Info.plist */,
@@ -175,12 +229,7 @@
 		E2CF486220AAC1E7004931B7 /* TestHandHTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2CF486320AAC1E7004931B7 /* UppercaseValidatorTests.swift */,
-				E2E22D0420AC19C200BAE5B3 /* LowercaseValidatorTests.swift */,
-				E2E22D0220AC192700BAE5B3 /* NumberValidatorTests.swift */,
-				E2E22D0820AC1B1500BAE5B3 /* LengthStringValidatorTests.swift */,
-				E2E22D0C20AC1C4E00BAE5B3 /* EmailValidatorTests.swift */,
-				E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */,
+				E2B818E920AEA80300973D5F /* Validators */,
 				E2CF486520AAC1E7004931B7 /* Info.plist */,
 			);
 			path = TestHandHTests;
@@ -198,6 +247,15 @@
 				E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */,
 			);
 			path = Validators;
+			sourceTree = "<group>";
+		};
+		E2E22D1420AC6ED200BAE5B3 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF485020AAC1E6004931B7 /* ViewController.swift */,
+				E2CF485220AAC1E6004931B7 /* Main.storyboard */,
+			);
+			path = MainModule;
 			sourceTree = "<group>";
 		};
 		EAC40F75B1B49D481BE8E0E0 /* Pods */ = {
@@ -221,6 +279,7 @@
 				E2CF484820AAC1E6004931B7 /* Frameworks */,
 				E2CF484920AAC1E6004931B7 /* Resources */,
 				D1E2FDEE78F05B2ED8B8FAB3 /* [CP] Embed Pods Frameworks */,
+				E2EFF64C20AEEAB9008CFB42 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,17 +415,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B818F220AEB9B500973D5F /* WeatherService.swift in Sources */,
 				E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */,
 				E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */,
+				E2EFF65020AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift in Sources */,
+				E2EFF63D20AEE291008CFB42 /* AlertViewController+setImage.swift in Sources */,
 				E2E22CFB20AC12D500BAE5B3 /* Validator.swift in Sources */,
 				E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */,
 				E2E22D0720AC1A1D00BAE5B3 /* NumberValidator.swift in Sources */,
 				E2437F7A20AAC9CE0095105C /* OrangeRoundedButton.swift in Sources */,
 				E2437F8720AB00CC0095105C /* constants.swift in Sources */,
+				E2EFF64E20AEF000008CFB42 /* AuthorisationViewModel.swift in Sources */,
 				E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */,
 				E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */,
 				E2E22D0B20AC1BB000BAE5B3 /* LengthStringValidator.swift in Sources */,
 				E2437F7F20AAD7710095105C /* AuthorisationView.swift in Sources */,
+				E2B818F120AEB9B500973D5F /* Weather.swift in Sources */,
 				E2E22D0120AC183B00BAE5B3 /* LowercaseValidator.swift in Sources */,
 				E2E22CF820AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift in Sources */,
 				E2CF484F20AAC1E6004931B7 /* AppDelegate.swift in Sources */,
@@ -538,6 +602,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPYYZ9PSBN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = TestHandH/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,6 +626,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPYYZ9PSBN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = TestHandH/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

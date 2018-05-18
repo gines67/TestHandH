@@ -10,13 +10,8 @@ import UIKit
 
 class UppercaseValidator: Validator {
     func isValid(validationString: String) -> Bool {
-        
-        let upperCase = NSCharacterSet.uppercaseLetters
-        
-        for char in validationString.unicodeScalars where upperCase.contains(char) {
-            return true
-        }
-        return false
+        let regExptest = NSPredicate(format: "SELF MATCHES %@", ".*[A-ZА-Я]+.*")
+        return regExptest.evaluate(with: validationString)
     }
 
 }

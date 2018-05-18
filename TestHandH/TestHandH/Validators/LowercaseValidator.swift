@@ -11,11 +11,7 @@ import UIKit
 class LowercaseValidator: Validator {
     
     func isValid(validationString: String) -> Bool {
-        let lowerCase = NSCharacterSet.lowercaseLetters
-        
-        for char in validationString.unicodeScalars where lowerCase.contains(char) {
-            return true
-        }
-        return false
+        let regExptest = NSPredicate(format: "SELF MATCHES %@", ".*[a-zа-я]+.*")
+        return regExptest.evaluate(with: validationString)
     }
 }

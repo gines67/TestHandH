@@ -20,7 +20,7 @@ class CompositValidatorTests: XCTestCase {
 
     func testIsValid_UpperAndLowerValidateNotContainsUpper_returnFalse() {
         validator = CompositValidator(withValidators: [UppercaseValidator(), LowercaseValidator()])
-        let inputstring = "sksfdfsdfmvksm"
+        let inputstring = "sksfdfs312dfmvksm"
         
         let result = validator?.isValid(validationString: inputstring)
         
@@ -29,7 +29,7 @@ class CompositValidatorTests: XCTestCase {
     
     func testIsValid_UpperAndLowerValidateNotContainsLower_returnFalse() {
         validator = CompositValidator(withValidators: [UppercaseValidator(), LowercaseValidator()])
-        let inputstring = "JFFHJHFD"
+        let inputstring = "JFF13213HJHFD"
         
         let result = validator?.isValid(validationString: inputstring)
         

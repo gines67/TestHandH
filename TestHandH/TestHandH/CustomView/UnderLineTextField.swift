@@ -8,11 +8,13 @@
 
 import UIKit
 
+
 class UnderLineTextField: UITextField {
 
+    var bottomLine = CALayer()
+    
     override func draw(_ rect: CGRect) {
         
-        let bottomLine = CALayer()
         bottomLine.frame = CGRect(x: 0, y: frame.height - 1, width: frame.width, height: 1)
         bottomLine.backgroundColor = grayColor.cgColor
         borderStyle = UITextBorderStyle.none
