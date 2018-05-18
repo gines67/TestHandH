@@ -1,5 +1,5 @@
 //
-//  AuthorisationViewModelProtocol.swift
+//  AuthorisationPresenterProtocol.swift
 //  TestHandH
 //
 //  Created by Сергей Герасимов on 18.05.2018.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-protocol AuthorisationViewModelProtocol {
+protocol AuthorisationPresenterProtocol {
     func emailIsValid(_ email: String) -> Bool
     func passwordIsValid(_ password: String) -> Bool
-    func authorisation(email: String, password: String, callback: @escaping() -> Void)
+    func authorisation(email: String, password: String, callback: @escaping(String) -> Void)
 }

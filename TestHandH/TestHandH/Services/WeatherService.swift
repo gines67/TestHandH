@@ -13,7 +13,7 @@ class WeatherService {
     private var url: String
     
     init(withKey key: String, lat: Float, lon: Float) {
-        url = "http://api.openweathermap.org/data/2.5/weather?units=metric&APPID=\(key)&lat=\(lat)&lon=\(lon)"
+        url = "http://api.openweathermap.org/data/2.5/weather?units=metric&APPID=\(key)&lat=\(lat)&lon=\(lon)&lang=ru"
     }
     
     func getData(withSuccesHandler succesHandler: @escaping (Weather) -> Void, errorHandler: @escaping (Error) -> Void)  {

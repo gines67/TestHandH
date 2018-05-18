@@ -18,9 +18,9 @@ class AutorisationView: UIViewController {
     
     //MARK:- Variables
     var disposeBag = DisposeBag()
-    var viewModel: AuthorisationViewModelProtocol!
+    var presenter: AuthorisationPresenterProtocol!
     
-    
+    //MARK:- ViewController methods
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
@@ -30,9 +30,19 @@ class AutorisationView: UIViewController {
     }
     
     @IBAction func LoginAction(_ sender: Any) {
-        
+        presenter.authorisation(email: emailTextField.text!, password: passwordTextField.text!) { message in
+            let alert = UIAlertController(title: "Внимание!", message: message, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(okAction)
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     
+    deinit {
+        removeSubscribeToKeyboardNotification()
+    }
+    
+    //MARK:- bindin fields
     func bindEmailField(){
         emailTextField.rx.text.orEmpty
             .throttle(0.5, scheduler: MainScheduler.instance)
@@ -40,11 +50,12 @@ class AutorisationView: UIViewController {
                 if email == "" {
                     return true
                 }
-                return self.viewModel.emailIsValid(email)
+                return self.presenter.emailIsValid(email)
             }
             .bind { isValid in
                 self.emailTextField.bottomLine.backgroundColor = (isValid ? grayColor : .red).cgColor
-            }.disposed(by: disposeBag)
+            }
+            .disposed(by: disposeBag)
     }
     
     func bindPasswordField(){
@@ -54,15 +65,12 @@ class AutorisationView: UIViewController {
                 if password == "" {
                     return true
                 }
-                return self.viewModel.passwordIsValid(password)
+                return self.presenter.passwordIsValid(password)
             }
             .bind { isValid in
                 self.passwordTextField.bottomLine.backgroundColor = (isValid ?  grayColor : .red).cgColor
-            }.disposed(by: disposeBag)
-    }
-    
-    deinit {
-        removeSubscribeToKeyboardNotification()
+            }
+            .disposed(by: disposeBag)
     }
 }
 

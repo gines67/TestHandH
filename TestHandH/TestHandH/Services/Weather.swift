@@ -10,7 +10,7 @@ import UIKit
 
 class Weather {
     
-    var weatherImageUrl: String
+    var weatherDescription: String
     var temp: Float
     var windSpeed: Float
     var name: String
@@ -19,13 +19,13 @@ class Weather {
         let weather = dictionary["weather"] as! [[String : AnyObject]]
         let main = dictionary["main"] as! [String : AnyObject]
         let wind = dictionary["wind"] as! [String : AnyObject]
-        weatherImageUrl = "\(urlImage)\(weather[0]["weather"] as! String).png"
-        temp = main["temp"] as! Float
-        windSpeed = wind["speed"] as! Float
+        weatherDescription = weather[0]["description"] as! String
+        temp = ((main["temp"] as? NSNumber)?.floatValue)!
+        windSpeed = ((wind["speed"] as? NSNumber)?.floatValue)!
         name = dictionary["name"] as! String
     }
     
     func toString() -> String {
-        return "\(name)\nТемпература:\(temp)C\nСкорость ветра:\(windSpeed)м/с"
+        return "\(name)\nТемпература: \(temp)C\nСкорость ветра: \(windSpeed)м/с\nПогода: \(weatherDescription)"
     }
 }

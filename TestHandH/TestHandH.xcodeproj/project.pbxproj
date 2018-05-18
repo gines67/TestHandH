@@ -35,12 +35,10 @@
 		E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */; };
 		E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */; };
 		E2E22D1320AC29EA00BAE5B3 /* CompositValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */; };
-		E2EFF63D20AEE291008CFB42 /* AlertViewController+setImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */; };
-		E2EFF64A20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */; };
-		E2EFF64B20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E2EFF64E20AEF000008CFB42 /* AuthorisationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */; };
-		E2EFF65020AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */; };
+		E2EFF64E20AEF000008CFB42 /* AuthorisationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64D20AEF000008CFB42 /* AuthorisationPresenter.swift */; };
+		E2EFF65020AEF1EC008CFB42 /* AuthorisationPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFF64F20AEF1EC008CFB42 /* AuthorisationPresenterProtocol.swift */; };
 		E2F00A1A20AF101200F7031E /* AuthorisationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F00A1920AF101200F7031E /* AuthorisationAssembler.swift */; };
+		E2F00A1E20AF6C3F00F7031E /* TemplateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F00A1D20AF6C3F00F7031E /* TemplateValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,20 +50,6 @@
 			remoteInfo = TestHandH;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E2EFF64C20AEEAB9008CFB42 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E2EFF64B20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		320DCC5FA09B5DAE05CFE6C9 /* Pods_TestHandH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHandH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,11 +86,11 @@
 		E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidator.swift; sourceTree = "<group>"; };
 		E2E22D1220AC29EA00BAE5B3 /* CompositValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositValidatorTests.swift; sourceTree = "<group>"; };
-		E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertViewController+setImage.swift"; sourceTree = "<group>"; };
 		E2EFF64920AEEAB9008CFB42 /* AsyncImageCachedFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncImageCachedFramework.framework; path = Frameworks/AsyncImageCachedFramework.framework; sourceTree = "<group>"; };
-		E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationViewModel.swift; sourceTree = "<group>"; };
-		E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationViewModelProtocol.swift; sourceTree = "<group>"; };
+		E2EFF64D20AEF000008CFB42 /* AuthorisationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationPresenter.swift; sourceTree = "<group>"; };
+		E2EFF64F20AEF1EC008CFB42 /* AuthorisationPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationPresenterProtocol.swift; sourceTree = "<group>"; };
 		E2F00A1920AF101200F7031E /* AuthorisationAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationAssembler.swift; sourceTree = "<group>"; };
+		E2F00A1D20AF6C3F00F7031E /* TemplateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EFF64A20AEEAB9008CFB42 /* AsyncImageCachedFramework.framework in Frameworks */,
 				4FCFF66D67881B16FCD100C1 /* Pods_TestHandH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +126,8 @@
 			children = (
 				E2437F7C20AAD7340095105C /* Authorisation.storyboard */,
 				E2437F7E20AAD7710095105C /* AuthorisationView.swift */,
-				E2EFF64D20AEF000008CFB42 /* AuthorisationViewModel.swift */,
-				E2EFF64F20AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift */,
+				E2EFF64D20AEF000008CFB42 /* AuthorisationPresenter.swift */,
+				E2EFF64F20AEF1EC008CFB42 /* AuthorisationPresenterProtocol.swift */,
 				E2F00A1920AF101200F7031E /* AuthorisationAssembler.swift */,
 			);
 			path = AuthorisationModule;
@@ -165,7 +148,6 @@
 			children = (
 				E2437F8620AB00CC0095105C /* constants.swift */,
 				E2E22CF720AC119D00BAE5B3 /* UIViewController+HideKeyboardByTap.swift */,
-				E2EFF63C20AEE291008CFB42 /* AlertViewController+setImage.swift */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -248,6 +230,7 @@
 				E2E22D0A20AC1BB000BAE5B3 /* LengthStringValidator.swift */,
 				E2E22D0E20AC1CB300BAE5B3 /* EmailValidator.swift */,
 				E2E22D1020AC25F600BAE5B3 /* CompositValidator.swift */,
+				E2F00A1D20AF6C3F00F7031E /* TemplateValidator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -282,7 +265,6 @@
 				E2CF484820AAC1E6004931B7 /* Frameworks */,
 				E2CF484920AAC1E6004931B7 /* Resources */,
 				D1E2FDEE78F05B2ED8B8FAB3 /* [CP] Embed Pods Frameworks */,
-				E2EFF64C20AEEAB9008CFB42 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -425,17 +407,17 @@
 				E2B818F220AEB9B500973D5F /* WeatherService.swift in Sources */,
 				E2CF485120AAC1E6004931B7 /* ViewController.swift in Sources */,
 				E2E22D0F20AC1CB300BAE5B3 /* EmailValidator.swift in Sources */,
-				E2EFF65020AEF1EC008CFB42 /* AuthorisationViewModelProtocol.swift in Sources */,
-				E2EFF63D20AEE291008CFB42 /* AlertViewController+setImage.swift in Sources */,
+				E2EFF65020AEF1EC008CFB42 /* AuthorisationPresenterProtocol.swift in Sources */,
 				E2E22CFB20AC12D500BAE5B3 /* Validator.swift in Sources */,
 				E2437F8320AAF62A0095105C /* WithButtonTextField.swift in Sources */,
 				E2E22D0720AC1A1D00BAE5B3 /* NumberValidator.swift in Sources */,
 				E2437F7A20AAC9CE0095105C /* OrangeRoundedButton.swift in Sources */,
 				E2F00A1A20AF101200F7031E /* AuthorisationAssembler.swift in Sources */,
 				E2437F8720AB00CC0095105C /* constants.swift in Sources */,
-				E2EFF64E20AEF000008CFB42 /* AuthorisationViewModel.swift in Sources */,
+				E2EFF64E20AEF000008CFB42 /* AuthorisationPresenter.swift in Sources */,
 				E2E22D1120AC25F600BAE5B3 /* CompositValidator.swift in Sources */,
 				E2437F8120AAED220095105C /* UnderLineTextField.swift in Sources */,
+				E2F00A1E20AF6C3F00F7031E /* TemplateValidator.swift in Sources */,
 				E2E22D0B20AC1BB000BAE5B3 /* LengthStringValidator.swift in Sources */,
 				E2437F7F20AAD7710095105C /* AuthorisationView.swift in Sources */,
 				E2B818F120AEB9B500973D5F /* Weather.swift in Sources */,
